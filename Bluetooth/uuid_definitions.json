@@ -1,0 +1,140 @@
+{
+    "_comment": {
+        "comment": [
+            "Add UUIDs for your services, characteristics, and descriptors in this file.",
+            "The format is the UUID of the item, followed by an object containing the data.",
+            "'name' is a mandatory handle, while 'format' is optional.",
+            "Currently the only supported format is 'TEXT', default is 'NO_FORMAT'.",
+            "The application must be reloaded to access changes in this file."
+        ]
+    },
+
+    "uuid16bitServiceDefinitions": {
+        "180D": {
+            "name": "Heart Rate"
+        }
+    },
+
+    "uuid16bitCharacteristicDefinitions": {
+        "2A37": {
+            "name": "Heart Rate Measurement"
+        },
+        "2A29": {
+            "name": "Manufacturer Name String",
+            "format": "TEXT"
+        }
+    },
+
+    "uuid16bitDescriptorDefinitions": {},
+
+    "uuid128bitServiceDefinitions": {
+        "6E400001B5A3F393E0A9E50E24DCCA9E": {
+            "name": "UART over BLE"
+        },
+        "945778F8CA6C4D1191E0A9533A5DE97E": {
+            "name": "TPMS Sensor Service"
+        },
+        "945795D8CA6C4D1191E0A9533A5DE97E": {
+            "name": "TPMS System Service"
+        },
+        "9457D658CA6C4D1191E0A9533A5DE97E": {
+            "name": "TPMS Vehicle Service"
+        },
+        "9457CB4DCA6C4D1191E0A9533A5DE97E": {
+            "name": "TPMS Sensor Discovery Service"
+        },
+        "9457ADD0CA6C4D1191E0A9533A5DE97E": {
+            "name": "TPMS Diagnostics Service"
+        }
+    },
+
+    "uuid128bitCharacteristicDefinitions": {
+        "6E400002B5A3F393E0A9E50E24DCCA9E": {
+            "name": "UART RX"
+        },
+        "6E400003B5A3F393E0A9E50E24DCCA9E": {
+            "name": "UART TX"
+        },
+
+
+        "94578DBCCA6C4D1191E0A9533A5DE97E": {
+            "name": "Sensor Read Pointer"
+        },
+        "9457699CCA6C4D1191E0A9533A5DE97E": {
+            "name": "Sensor Parameters"
+        },
+        "9457BFF8CA6C4D1191E0A9533A5DE97E": {
+            "name": "Sensor Data"
+        },
+
+
+        "945710A5CA6C4D1191E0A9533A5DE97E": {
+            "name": "Admin Password"
+        },
+        "94579E67CA6C4D1191E0A9533A5DE97E": {
+            "name": "Admin Mode Status"
+        },
+        "94576518CA6C4D1191E0A9533A5DE97E": {
+            "name": "Admin New Password"
+        },
+        "94574B5BCA6C4D1191E0A9533A5DE97E": {
+            "name": "Advertising Mode"
+        },
+        "9457CE25CA6C4D1191E0A9533A5DE97E": {
+            "name": "Device Name"
+        },
+        "9457E502CA6C4D1191E0A9533A5DE97E": {
+            "name": "LED Brightness"
+        },
+        "9457650FCA6C4D1191E0A9533A5DE97E": {
+            "name": "Buzzer Control"
+        },
+        "945787DFCA6C4D1191E0A9533A5DE97E": {
+            "name": "Buzzer HP Alert Interval"
+        },
+        "9457E04FCA6C4D1191E0A9533A5DE97E": {
+            "name": "Buzzer LP Alert Interval"
+        },
+        "9457A9A4CA6C4D1191E0A9533A5DE97E": {
+            "name": "Factory Reset Request"
+        },
+        "9457689ECA6C4D1191E0A9533A5DE97E": {
+            "name": "Factory Reset Status"
+        },
+        "9457E88ECA6C4D1191E0A9533A5DE97E": {
+            "name": "Alert Status"
+        },
+        "94579D8CCA6C4D1191E0A9533A5DE97E": {
+            "name": "Enabled Vehicles"
+        },
+
+
+        "9457EC4ECA6C4D1191E0A9533A5DE97E": {
+            "name": "Vehicle Read Pointer"
+        },
+        "94571686CA6C4D1191E0A9533A5DE97E": {
+            "name": "Vehicle Name"
+        },
+        "94577336CA6C4D1191E0A9533A5DE97E": {
+            "name": "Vehicle Layout"
+        },
+        "94577F1DCA6C4D1191E0A9533A5DE97E": {
+            "name": "Vehicle Parameters"
+        },
+        "945766DCCA6C4D1191E0A9533A5DE97E": {
+            "name": "Vehicle Data"
+        },
+
+
+        "94573418CA6C4D1191E0A9533A5DE97E": {
+            "name": "New Sensor Data"
+        },
+
+
+        "9457555DCA6C4D1191E0A9533A5DE97E": {
+            "name": "Rx Packet"
+        }
+    },
+
+    "uuid128bitDescriptorDefinitions": {}
+}
